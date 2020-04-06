@@ -40,7 +40,7 @@ The following example uses Docker and assumes you have Docker correctly installe
     
     cd /home/cinnamonremix
     
-    git clone https://github.com/KaiLikesLinux/iso-builder -b cinnamonv2
+    git clone https://github.com/KaiLikesLinux/iso-builder -b ubuntulumina
     
     cd iso-builder
     

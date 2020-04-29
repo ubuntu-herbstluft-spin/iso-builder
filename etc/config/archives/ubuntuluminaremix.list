@@ -1,2 +1,2 @@
-deb http://ppa.launchpad.net/ubuntulumina/lumina-desktop/ubuntu focal main 
-deb-src http://ppa.launchpad.net/ubuntulumina/lumina-desktop/ubuntu focal main 
+deb [trusted=yes] http://ppa.launchpad.net/ubuntulumina/lumina-desktop/ubuntu focal main 
+deb-src [trusted=yes] http://ppa.launchpad.net/ubuntulumina/lumina-desktop/ubuntu focal main 

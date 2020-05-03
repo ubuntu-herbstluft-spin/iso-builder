@@ -1,0 +1,16 @@
+--------------------------------------------------------------------
+Title: RFKILL Boot Killer
+Urgency: HIGH
+Desc: systemd-rfkill.service seems to slow the boot time to over 20
+minutes in some tests.
+
+Notes:
+- systemd-analyze blame will need to be ran to find fixes
+--------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Title: Boot Editing TTY
+Urgency: Medium
+Desc: Editing the boot params/using manual verification boots into
+terminal instead of LuminaDE, otherwise should work fine
+--------------------------------------------------------------------

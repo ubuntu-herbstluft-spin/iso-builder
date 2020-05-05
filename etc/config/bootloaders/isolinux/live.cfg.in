@@ -1,7 +1,7 @@
 prompt 0
 
 MENU HIDDEN
-MENU AUTOBOOT Booting cinnamon remix live disk in # seconds
+MENU AUTOBOOT Booting lumina remix live disk in # seconds
 timeout 50
 
 label live-@FLAVOUR@

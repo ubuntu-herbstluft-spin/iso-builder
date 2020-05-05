@@ -4,7 +4,7 @@ This ISO builder is fork of the good work from the elementary crew.  Many thanks
 
 ## Building Locally
 
-As ubuntu cinnamon-remix is built with the Debian version of `live-build`, not the Ubuntu patched version, it's easiest to build an iso in a Debian VM or container. This prevents messing up your host system too.
+As ubuntu lumina-remix is built with the Debian version of `live-build`, not the Ubuntu patched version, it's easiest to build an iso in a Debian VM or container. This prevents messing up your host system too.
 
 The following example uses Docker and assumes you have Docker correctly installed and set up:
 
@@ -26,7 +26,8 @@ The following example uses Docker and assumes you have Docker correctly installe
 
     cd /usr/share/debootstrap/scripts
 
-    cp disco eoan
+    As of 05 May 2020:
+    cp disco focal
     
     cd
 
@@ -36,9 +37,9 @@ The following example uses Docker and assumes you have Docker correctly installe
 
     Clone the iso-builder
 
-    mkdir /home/cinnamonremix
+    mkdir /home/luminaremix
     
-    cd /home/cinnamonremix
+    cd /home/luminaremix
     
     git clone https://github.com/KaiLikesLinux/iso-builder -b ubuntulumina
     
@@ -72,7 +73,7 @@ The following example uses Docker and assumes you have Docker correctly installe
     
     You will now be back in the container i.e. with a /# prompt
 
-    cd /home/cinnamonremix/iso-builder
+    cd /home/luminaremix/iso-builder
 
     ./terraform.sh
     
@@ -82,7 +83,7 @@ The following example uses Docker and assumes you have Docker correctly installe
 
     On your host, copy the build folder from your docker container
 
-    sudo docker cp containerID:/home/cinnamonremix/iso-builder/builds/amd64 .
+    sudo docker cp containerID:/home/luminaremix/iso-builder/builds/amd64 .
 
     Finish by shutting down the container
 

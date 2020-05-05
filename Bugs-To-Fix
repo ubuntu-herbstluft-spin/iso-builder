@@ -5,7 +5,8 @@ Desc: systemd-rfkill.service seems to slow the boot time to over 20
 minutes in some tests.
 
 Notes:
-- systemd-analyze blame will need to be ran to find fixes
+- https://unix.stackexchange.com/questions/227017/how-to-change-systemd-service-timeout-value
+  - From Alex from BigDaddyLinux Discord Server
 --------------------------------------------------------------------
 
 --------------------------------------------------------------------

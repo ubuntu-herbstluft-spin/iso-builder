@@ -1,0 +1,7 @@
+- Update packages to herbstluftwm ones
+You can find this at ./etc/config/package-lists.calamares/
+
+- Remove Lumina PPA's and replace them with herbstluft ones (if needed).
+You can find this at ./etc/config/archives/ubuntuherbstluftremix.list
+
+- Edit name to liking in: ./etc/terraform.conf

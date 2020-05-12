@@ -1,11 +1,11 @@
 prompt 0
 
 MENU HIDDEN
-MENU AUTOBOOT Booting lumina remix live disk in # seconds
+MENU AUTOBOOT Booting herbstluft remix live disk in # seconds
 timeout 50
 
 label live-@FLAVOUR@
-	menu label ^Try or install Lumina remix
+	menu label ^Try or install herbstluft remix
 	menu default
 	linux /casper/vmlinuz
 	initrd /casper/initrd.lz

@@ -4,7 +4,7 @@ This ISO builder is fork of the good work from the elementary crew.  Many thanks
 
 ## Building Locally
 
-As ubuntu lumina-remix is built with the Debian version of `live-build`, not the Ubuntu patched version, it's easiest to build an iso in a Debian VM or container. This prevents messing up your host system too.
+As ubuntu herbstluft-remix is built with the Debian version of `live-build`, not the Ubuntu patched version, it's easiest to build an iso in a Debian VM or container. This prevents messing up your host system too.
 
 The following example uses Docker and assumes you have Docker correctly installed and set up:
 
@@ -37,11 +37,11 @@ The following example uses Docker and assumes you have Docker correctly installe
 
     Clone the iso-builder
 
-    mkdir /home/luminaremix
+    mkdir /home/herbstluftremix
     
-    cd /home/luminaremix
+    cd /home/herbstluftremix
     
-    git clone https://github.com/KaiLikesLinux/iso-builder -b ubuntulumina
+    git clone https://github.com/Ubuntu-Lumina/iso-builder -b herbstluft
     
     cd iso-builder
     
@@ -73,7 +73,7 @@ The following example uses Docker and assumes you have Docker correctly installe
     
     You will now be back in the container i.e. with a /# prompt
 
-    cd /home/luminaremix/iso-builder
+    cd /home/herbstluftremix/iso-builder
 
     ./terraform.sh
     
@@ -83,7 +83,7 @@ The following example uses Docker and assumes you have Docker correctly installe
 
     On your host, copy the build folder from your docker container
 
-    sudo docker cp containerID:/home/luminaremix/iso-builder/builds/amd64 .
+    sudo docker cp containerID:/home/herbstluftremix/iso-builder/builds/amd64 .
 
     Finish by shutting down the container
 

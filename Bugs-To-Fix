@@ -7,6 +7,7 @@ minutes in some tests.
 Notes:
 - https://unix.stackexchange.com/questions/227017/how-to-change-systemd-service-timeout-value
   - From Alex from BigDaddyLinux Discord Server
+- On next developer build, if still an issue, talk to ItzSwirlz to see if he does it different
 --------------------------------------------------------------------
 
 --------------------------------------------------------------------
@@ -14,4 +15,17 @@ Title: Boot Editing TTY
 Urgency: Medium
 Desc: Editing the boot params/using manual verification boots into
 terminal instead of LuminaDE, otherwise should work fine
+--------------------------------------------------------------------
+
+--------------------------------------------------------------------
+Level: URGENT
+Description: A login bug, LightDM will appear instead of the desktop, 
+     and logging in through that might not work, and you will boot to 
+     a black screen, not Lumina.
+Hypothisis: Might be caused by the OS trying to boot to Fluxbox 
+     (as is default for no currently understood reason), and Fluxbox 
+     is returning an error.
+Notes: To avoid this bug, go into LightDM's desktop selection, and 
+     click Lumina, it will auto-boot into it without any password, 
+     and the OS should work like normal.
 --------------------------------------------------------------------

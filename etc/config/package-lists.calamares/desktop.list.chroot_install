@@ -1,4 +1,7 @@
 @XORG_HWE
-lumina-desktop
-terminator
-slick-greeter
+herbstluftwm
+xorg
+xterm
+dzen2
+dmenu
+gem3
